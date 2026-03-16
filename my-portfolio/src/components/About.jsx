@@ -12,9 +12,9 @@ export default function About() {
         {/* Profile Photo */}
         <div className="rounded-2xl overflow-hidden shadow-xl shadow-cyan-500/10 ring-1 ring-white/10">
           <img
-            src="/src/assets/profile.jpeg"
+            src="/src/assets/profile2.jpg"
             alt="Krijal Shrestha"
-            className="w-full h-80 object-cover object-top"
+            className="w-full h-96 object-cover"
           />
         </div>
 
@@ -33,10 +33,10 @@ export default function About() {
 
           <div className="grid grid-cols-2 gap-4 text-sm">
             {[
-              ['Name','Krijal Shrestha'],
-              ['Location','Lubhu, Lalitpur, Nepal'],
-              ['College','Softwarica College of IT & E-Commerce'],
-              ['Availability','Open to Work'],
+              ['Name', 'Krijal Shrestha'],
+              ['Location', 'Lubhu, Lalitpur, Nepal'],
+              ['College', 'Softwarica College of IT & E-Commerce'],
+              ['Availability', 'Open to Work'],
             ].map(([title, value]) => (
               <div key={title}>
                 <span className="text-gray-500">{title}: </span>
