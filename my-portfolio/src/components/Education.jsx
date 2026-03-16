@@ -5,7 +5,7 @@ const educations = [
         degree: 'Secondary Education (SEE)',
         status: 'Completed',
         year: 'Apr 2022',
-        icon: '🏫',
+        logo: '/src/assets/ops-logo.png',
     },
     {
         school: 'Himalayan WhiteHouse International College',
@@ -13,7 +13,7 @@ const educations = [
         degree: 'Higher Secondary Education (+2 Science)',
         status: 'Completed',
         year: 'Mar 2024',
-        icon: '🏛️',
+        logo: '/src/assets/hwic-logo.jpg',
     },
     {
         school: 'Softwarica College of IT & E-Commerce',
@@ -21,9 +21,9 @@ const educations = [
         degree: 'BSc (Hons) Computing — Software Engineering & Computer Science',
         status: 'Currently Enrolled',
         year: '2024 – Present',
-        icon: '🎓',
+        logo: '/src/assets/sc-logo.png',
     },
-]
+];
 
 export default function Education() {
     return (
@@ -34,13 +34,17 @@ export default function Education() {
             <div className="w-12 h-1 bg-cyan-500 mx-auto mb-14 rounded-full" />
 
             {/* Timeline */}
-            <div className="relative border-l-2 border-cyan-500/30 pl-10 flex flex-col gap-10">
+            <div className="relative border-l-2 border-cyan-500/30 pl-14 flex flex-col gap-10">
                 {educations.map((edu, index) => (
                     <div key={index} className="relative">
 
-                        {/* Timeline dot */}
-                        <div className="absolute -left-[3.2rem] w-8 h-8 rounded-full bg-gray-950 border-2 border-cyan-500 flex items-center justify-center text-sm shadow-lg shadow-cyan-500/20">
-                            {edu.icon}
+                        {/* Timeline logo */}
+                        <div className="absolute -left-[4.5rem] w-14 h-14 rounded-full overflow-hidden border-2 border-cyan-500 flex items-center justify-center shadow-lg shadow-cyan-500/20 bg-gray-950">
+                            <img
+                                src={edu.logo}
+                                alt={`${edu.school} logo`}
+                                className="w-full h-full object-contain"
+                            />
                         </div>
 
                         {/* Card */}
@@ -86,5 +90,5 @@ export default function Education() {
                 ))}
             </div>
         </section>
-    )
+    );
 }
