@@ -1,5 +1,5 @@
 export default function Navbar() {
-  const links = ['About', 'Skills', 'Achievements', 'Projects', 'Contact']
+  const links = ['About', 'Education', 'Skills', 'Achievements', 'Projects', 'Contact']
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-gray-950/80 backdrop-blur-md border-b border-white/10">
