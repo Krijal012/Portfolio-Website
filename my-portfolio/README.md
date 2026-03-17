@@ -1,16 +1,57 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal portfolio website built with **React**, **Tailwind CSS**, and **Vite**. This project showcases my education, skills, projects, and achievements in a modern, dark-themed interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Responsive Design**: Fully optimized for Mobile, Tablet, and Desktop screens.
+- **Interactive UI**: Smooth scrolling navigation, hover effects, and modern styling.
+- **Project Showcase**: A grid layout displaying projects with descriptions, tech stacks, and GitHub links.
+- **Contact Form**: A functional-looking contact form with state management and validation.
+- **Dynamic Components**: Data-driven architecture for easy updates to Skills, Education, and Projects.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Library**: [React](https://react.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Icons**: [Devicon](https://devicon.dev/) & Unicode
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── assets/          # Images and static files
+├── components/      # React components (Hero, About, Projects, etc.)
+├── App.jsx          # Main application layout
+├── main.jsx         # Entry point
+└── index.css        # Global styles & Tailwind directives
+```
+
+## 📦 Getting Started
+
+Follow these steps to set up the project locally.
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Krijal012/my-portfolio.git
+   cd my-portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+   The app will typically run at `http://localhost:5173`.
