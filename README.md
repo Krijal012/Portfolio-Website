@@ -54,4 +54,4 @@ Follow these steps to set up the project locally.
    ```bash
    npm run dev
    ```
-   The app will typically run at `http://localhost:5173`.
+   The app will typically run at `https://krijal012.github.io/Portfolio-Website/`.
