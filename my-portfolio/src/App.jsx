@@ -5,6 +5,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Education from './components/Education'
+import Achievements from './components/Achievement'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <About />
       <Education />
       <Skills />
+      <Achievements />
       <Projects />
       <Contact />
     </div>

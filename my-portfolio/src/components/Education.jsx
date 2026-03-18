@@ -1,11 +1,15 @@
+import opsLogo from '../assets/ops-logo.png'
+import hwicLogo from '../assets/hwic-logo.jpg'
+import scLogo from '../assets/sc-logo.png'
+
 const educations = [
     {
         school: 'Occidental Public School',
-        location: 'Nepal',
+        location: 'Anamnagar, Kathmandu, Nepal',
         degree: 'Secondary Education (SEE)',
         status: 'Completed',
         year: 'Apr 2022',
-        logo: '/src/assets/ops-logo.png',
+        logo: opsLogo,
     },
     {
         school: 'Himalayan WhiteHouse International College',
@@ -13,7 +17,7 @@ const educations = [
         degree: 'Higher Secondary Education (+2 Science)',
         status: 'Completed',
         year: 'Mar 2024',
-        logo: '/src/assets/hwic-logo.jpg',
+        logo: hwicLogo,
     },
     {
         school: 'Softwarica College of IT & E-Commerce',
@@ -21,7 +25,7 @@ const educations = [
         degree: 'BSc (Hons) Computing — Software Engineering & Computer Science',
         status: 'Currently Enrolled',
         year: '2024 – Present',
-        logo: '/src/assets/sc-logo.png',
+        logo: scLogo,
     },
 ];
 
@@ -64,8 +68,8 @@ export default function Education() {
                                 {/* Status badge */}
                                 <span
                                     className={`px-4 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap ${edu.status === 'Currently Enrolled'
-                                            ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30'
-                                            : 'bg-green-500/20 text-green-400 border border-green-500/30'
+                                        ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30'
+                                        : 'bg-green-500/20 text-green-400 border border-green-500/30'
                                         }`}
                                 >
                                     {edu.status === 'Currently Enrolled' ? '🟡' : '✅'} {edu.status}

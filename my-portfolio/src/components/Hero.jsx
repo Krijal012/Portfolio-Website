@@ -1,3 +1,5 @@
+import profilePhoto from '../assets/profile.jpeg'
+
 export default function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center text-center px-6 pt-20">
@@ -6,7 +8,7 @@ export default function Hero() {
         {/* Profile Photo */}
         <div className="w-36 h-36 rounded-full mx-auto mb-6 overflow-hidden ring-4 ring-cyan-500/40 shadow-xl shadow-cyan-500/20">
           <img
-            src="/src/assets/profile.jpeg"
+            src={profilePhoto}
             alt="Krijal Shrestha"
             className="w-full h-full object-cover object-top"
           />

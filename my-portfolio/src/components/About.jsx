@@ -1,3 +1,5 @@
+import profilePhoto2 from '../assets/profile2.jpg'
+
 export default function About() {
   return (
     <section id="about" className="py-24 px-6 max-w-5xl mx-auto">
@@ -12,7 +14,7 @@ export default function About() {
         {/* Profile Photo */}
         <div className="rounded-2xl overflow-hidden shadow-xl shadow-cyan-500/10 ring-1 ring-white/10">
           <img
-            src="/src/assets/profile2.jpg"
+            src={profilePhoto2}
             alt="Krijal Shrestha"
             className="w-full h-96 object-cover"
           />
