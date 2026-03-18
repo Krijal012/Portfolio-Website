@@ -4,7 +4,7 @@ export default function Achievements() {
   return (
     <section id="achievements" className="py-24 px-6">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
           Achievements &amp; <span className="text-cyan-400">Certificates</span>
         </h2>
 

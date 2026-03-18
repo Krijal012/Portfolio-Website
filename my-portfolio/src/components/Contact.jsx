@@ -42,7 +42,7 @@ export default function Contact() {
       <div className="max-w-5xl mx-auto">
 
         {/* Heading */}
-        <h2 className="text-4xl font-bold text-center mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
           Get In <span className="text-cyan-400">Touch</span>
         </h2>
         <div className="w-12 h-1 bg-cyan-500 mx-auto mb-14 rounded-full" />
@@ -191,7 +191,7 @@ export default function Contact() {
         {/* Footer */}
         <div className="w-full h-px bg-white/5 mt-16 mb-8" />
         <p className="text-center text-gray-600 text-sm">
-          © 2026 Krijal Shrestha — Built with React & Tailwind CSS 🚀
+          © 2024 Krijal Shrestha — Built with React & Tailwind CSS 🚀
         </p>
 
       </div>

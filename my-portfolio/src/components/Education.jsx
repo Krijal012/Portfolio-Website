@@ -32,13 +32,13 @@ const educations = [
 export default function Education() {
     return (
         <section id="education" className="py-24 px-6 max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
                 My <span className="text-cyan-400">Education</span>
             </h2>
             <div className="w-12 h-1 bg-cyan-500 mx-auto mb-14 rounded-full" />
 
             {/* Timeline */}
-            <div className="relative border-l-2 border-cyan-500/30 pl-14 flex flex-col gap-10">
+            <div className="relative border-l-2 border-cyan-500/30 pl-11 flex flex-col gap-10">
                 {educations.map((edu, index) => (
                     <div key={index} className="relative">
 

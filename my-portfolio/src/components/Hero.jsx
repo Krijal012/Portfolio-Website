@@ -15,8 +15,8 @@ export default function Hero() {
         </div>
 
         {/* Greetings */}
-        <p className="tetx-cyan-400 uppercase tracking-widest text-sm mb-3">Hello, World! 👋</p>
-        <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-4">Hi, This is <br /><span className="text-cyan-400">Krijal Shrestha</span></h1>
+        <p className="text-cyan-400 uppercase tracking-widest text-sm mb-3">Hello, World! 👋</p>
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white leading-tight mb-4">Hi, This is <br /><span className="text-cyan-400">Krijal Shrestha</span></h1>
         <p className="text-xl md:text-2xl text-gray-400 mb-3">A student studying at Softwarica College of IT &amp; E-Commerce</p>
         <p className="text-gray-500 mb-10 text-base">A 2nd Year IT Student</p>
 

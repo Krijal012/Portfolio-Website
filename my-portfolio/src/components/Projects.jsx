@@ -53,7 +53,7 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto">
 
         {/* Heading */}
-        <h2 className="text-4xl font-bold text-center mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
           My <span className="text-cyan-400">Projects</span>
         </h2>
         <div className="w-12 h-1 bg-cyan-500 mx-auto mb-14 rounded-full" />
